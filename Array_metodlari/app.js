@@ -19,3 +19,4 @@
 *   indexOf: Belirli bir elemanın dizideki ilk indeksini döndürür.
 *   includes: Belirli bir elemanın dizide bulunup bulunmadığını kontrol eder.
 */
+
