@@ -39,10 +39,10 @@ console.log(kurs.split(" ")); // [ 'Modern', 'Web', 'Geliştirme', 'Kursu', 'ile
 //valueOf() =>
 console.log(kurs.valueOf()); // Modern Web Geliştirme Kursu ile İlgili
 
-// StartsWith()
+// StartsWith() => Verilen değer ile başlıyor mu kontrolünü yapar ve bool değer döner.
 console.log(kurs.startsWith("Modern")); // true
 
-// EndsWith()
+// EndsWith()   => Verilen değer ile bitiyor mu kontrolünü yapar ve bool değer döner.
 console.log(kurs.endsWith("Kursu ile İlgili")); // true
 
 // Template Literals
