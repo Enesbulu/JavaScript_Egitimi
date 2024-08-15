@@ -22,21 +22,25 @@ const users = [
 ]
 
 
-function getUserId() {
+function getUserId(callback) {
     setTimeout(() => {
         //Servise gittik ve cevabı aldık.
-        return 5;
+        let id = 5;
+        callback(id);
     }, 1000);
 }
 function getPostUSerId(userId) {
     setTimeout(() => {
         // console.log(users.filter(user => user.userId === userId));
         users.forEach(user => {
-            if (user.userId === userId) console.log(user);
+            if (user.userId === userId) console.log(user.post);
         });
     }, 500);
 }
 
-let userId = getUserId();
+//sorunlu çözüm
+// let userId = getUserId();
+// getPostUSerId(userId);
 
-getPostUSerId(userId);
+//Asenkron programlama -- Callback kullanarak çözüm
+getUserId(getPostUSerId);
