@@ -1,0 +1,64 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput {
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 4px solid #13b8b8bb;
+    transition: border 0.2s ease-in-out;
+    box-shadow: 5px 3px 5px 1px #45ddddbb;
+}
+
+
+.button-wrapper {
+    margin: 10px 0px;
+}
+
+#search-button {
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #015c10f5;
+    color: white;
+    box-shadow: -5px 3px 5px 2px rgb(4, 114, 59);
+}
+
+
+#clear-button {
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #db2929;
+    color: white;
+    box-shadow: 5px 3px 5px 1px rgb(221, 101, 32);
+}
+
+
+#image-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.imagelist-wrapper>.card {
+    margin: 20px;
+    border: 3px solid grey;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 3px 5px 8px grey;
+}
